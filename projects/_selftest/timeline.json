@@ -1,0 +1,349 @@
+{
+  "version": 1,
+  "title": "_selftest",
+  "segments": [
+    {
+      "id": "s01",
+      "src": "media/take1.mp4",
+      "srcIn": 0.0,
+      "srcOut": 3.02,
+      "srcW": 1920,
+      "srcH": 1080,
+      "zoom": 1.08,
+      "focusX": 0.5,
+      "focusY": 0.4,
+      "drift": true,
+      "transitionIn": "cut",
+      "note": "",
+      "words": [
+        {
+          "text": "Here",
+          "start": 0.0,
+          "end": 0.18
+        },
+        {
+          "text": "is",
+          "start": 0.18,
+          "end": 0.34
+        },
+        {
+          "text": "the",
+          "start": 0.34,
+          "end": 0.46
+        },
+        {
+          "text": "biggest",
+          "start": 0.46,
+          "end": 0.74
+        },
+        {
+          "text": "mistake",
+          "start": 0.74,
+          "end": 1.24
+        },
+        {
+          "text": "people",
+          "start": 1.24,
+          "end": 1.62
+        },
+        {
+          "text": "make",
+          "start": 1.62,
+          "end": 1.92
+        },
+        {
+          "text": "with",
+          "start": 1.92,
+          "end": 2.12
+        },
+        {
+          "text": "video",
+          "start": 2.12,
+          "end": 2.44
+        },
+        {
+          "text": "editing.",
+          "start": 2.44,
+          "end": 2.88
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "src": "media/take1.mp4",
+      "srcIn": 5.52,
+      "srcOut": 7.2,
+      "srcW": 1920,
+      "srcH": 1080,
+      "zoom": 1.14,
+      "focusX": 0.5,
+      "focusY": 0.4,
+      "drift": false,
+      "transitionIn": "cut",
+      "note": "",
+      "words": [
+        {
+          "text": "they",
+          "start": 5.5,
+          "end": 5.66
+        },
+        {
+          "text": "keep",
+          "start": 5.66,
+          "end": 5.94
+        },
+        {
+          "text": "every",
+          "start": 5.94,
+          "end": 6.22
+        },
+        {
+          "text": "single",
+          "start": 6.22,
+          "end": 6.6
+        },
+        {
+          "text": "pause.",
+          "start": 6.6,
+          "end": 7.06
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "src": "media/take1.mp4",
+      "srcIn": 8.05,
+      "srcOut": 10.84,
+      "srcW": 1920,
+      "srcH": 1080,
+      "zoom": 1.0,
+      "focusX": 0.5,
+      "focusY": 0.4,
+      "drift": false,
+      "transitionIn": "cut",
+      "note": "",
+      "words": [
+        {
+          "text": "Three",
+          "start": 8.12,
+          "end": 8.74
+        },
+        {
+          "text": "seconds",
+          "start": 8.74,
+          "end": 9.14
+        },
+        {
+          "text": "of",
+          "start": 9.14,
+          "end": 9.36
+        },
+        {
+          "text": "silence",
+          "start": 9.36,
+          "end": 9.78
+        },
+        {
+          "text": "kills",
+          "start": 9.78,
+          "end": 10.08
+        },
+        {
+          "text": "your",
+          "start": 10.08,
+          "end": 10.3
+        },
+        {
+          "text": "retention.",
+          "start": 10.3,
+          "end": 10.7
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "src": "media/take2.mp4",
+      "srcIn": 0.0,
+      "srcOut": 1.34,
+      "srcW": 1920,
+      "srcH": 1080,
+      "zoom": 1.14,
+      "focusX": 0.5,
+      "focusY": 0.4,
+      "drift": false,
+      "transitionIn": "whip",
+      "note": "",
+      "words": [
+        {
+          "text": "So",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "text": "here",
+          "start": 0.22,
+          "end": 0.46
+        },
+        {
+          "text": "is",
+          "start": 0.46,
+          "end": 0.6
+        },
+        {
+          "text": "what",
+          "start": 0.6,
+          "end": 0.76
+        },
+        {
+          "text": "to",
+          "start": 0.76,
+          "end": 0.9
+        },
+        {
+          "text": "do.",
+          "start": 0.9,
+          "end": 1.2
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "src": "media/take2.mp4",
+      "srcIn": 3.23,
+      "srcOut": 5.52,
+      "srcW": 1920,
+      "srcH": 1080,
+      "zoom": 1.0,
+      "focusX": 0.5,
+      "focusY": 0.4,
+      "drift": false,
+      "transitionIn": "cut",
+      "note": "",
+      "words": [
+        {
+          "text": "Cut",
+          "start": 3.3,
+          "end": 3.62
+        },
+        {
+          "text": "the",
+          "start": 3.62,
+          "end": 3.76
+        },
+        {
+          "text": "dead",
+          "start": 3.76,
+          "end": 3.92
+        },
+        {
+          "text": "air",
+          "start": 3.92,
+          "end": 4.12
+        },
+        {
+          "text": "and",
+          "start": 4.12,
+          "end": 4.26
+        },
+        {
+          "text": "keep",
+          "start": 4.26,
+          "end": 4.5
+        },
+        {
+          "text": "the",
+          "start": 4.5,
+          "end": 4.66
+        },
+        {
+          "text": "energy",
+          "start": 4.66,
+          "end": 5.02
+        },
+        {
+          "text": "high.",
+          "start": 5.02,
+          "end": 5.38
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "src": "media/take2.mp4",
+      "srcIn": 6.41,
+      "srcOut": 8.12,
+      "srcW": 1920,
+      "srcH": 1080,
+      "zoom": 1.14,
+      "focusX": 0.5,
+      "focusY": 0.4,
+      "drift": false,
+      "transitionIn": "cut",
+      "note": "",
+      "words": [
+        {
+          "text": "Try",
+          "start": 6.48,
+          "end": 6.92
+        },
+        {
+          "text": "it",
+          "start": 6.92,
+          "end": 7.08
+        },
+        {
+          "text": "on",
+          "start": 7.08,
+          "end": 7.2
+        },
+        {
+          "text": "your",
+          "start": 7.2,
+          "end": 7.32
+        },
+        {
+          "text": "next",
+          "start": 7.32,
+          "end": 7.62
+        },
+        {
+          "text": "video.",
+          "start": 7.62,
+          "end": 7.98
+        }
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "id": "hook",
+      "type": "hookTitle",
+      "seg": "s01",
+      "start": 0,
+      "end": 2.4,
+      "text": "HERE IS THE BIGGEST MISTAKE PEOPLE",
+      "highlight": []
+    },
+    {
+      "id": "card",
+      "type": "clip",
+      "seg": "s05",
+      "start": 0.0,
+      "end": 2.5,
+      "src": "assets/broll/card.webm"
+    }
+  ],
+  "sfx": [
+    {
+      "seg": "s04",
+      "at": 0,
+      "src": "assets/sfx/whoosh.wav"
+    },
+    {
+      "seg": "s01",
+      "at": 0,
+      "src": "assets/sfx/pop.wav"
+    }
+  ],
+  "music": null
+}

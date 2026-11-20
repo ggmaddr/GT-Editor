@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# HyperFrames CLI launcher (telemetry off). Usage: scripts/hf <command> [args]
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+export HYPERFRAMES_NO_TELEMETRY=1
+exec node "$ROOT/.claude/skills/hyperframes/scripts/plugin-cli.mjs" "$@"

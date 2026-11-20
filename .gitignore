@@ -1,0 +1,19 @@
+# heavy / generated media — keep sources of truth (timeline.json, styles, scripts) in git
+raw footage/
+references/*
+!references/.gitkeep
+!references/_analysis/
+references/_analysis/*/transcript.json
+exports/
+projects/*/public/
+projects/*/source/
+projects/*/timeline.prev.json
+projects/*/renders/
+motion/**/*.webm
+motion/**/*.mp4
+motion/**/.hyperframes/
+motion/**/node_modules/
+engine/node_modules/
+.venv/
+.DS_Store
+__pycache__/

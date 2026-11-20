@@ -1,0 +1,175 @@
+{
+  "text": "Here is the biggest mistake people make with video editing. Umm. They they keep every single pause. Three seconds of silence kills your retention.",
+  "language": "en",
+  "model": "turbo",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.88,
+      "text": "Here is the biggest mistake people make with video editing.",
+      "no_speech_prob": 0.0,
+      "words": [
+        {
+          "word": " Here",
+          "start": 0.0,
+          "end": 0.18,
+          "probability": 0.897
+        },
+        {
+          "word": " is",
+          "start": 0.18,
+          "end": 0.34,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 0.34,
+          "end": 0.46,
+          "probability": 0.997
+        },
+        {
+          "word": " biggest",
+          "start": 0.46,
+          "end": 0.74,
+          "probability": 0.995
+        },
+        {
+          "word": " mistake",
+          "start": 0.74,
+          "end": 1.24,
+          "probability": 0.998
+        },
+        {
+          "word": " people",
+          "start": 1.24,
+          "end": 1.62,
+          "probability": 0.996
+        },
+        {
+          "word": " make",
+          "start": 1.62,
+          "end": 1.92,
+          "probability": 0.999
+        },
+        {
+          "word": " with",
+          "start": 1.92,
+          "end": 2.12,
+          "probability": 0.997
+        },
+        {
+          "word": " video",
+          "start": 2.12,
+          "end": 2.44,
+          "probability": 0.996
+        },
+        {
+          "word": " editing.",
+          "start": 2.44,
+          "end": 2.88,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 4.16,
+      "end": 7.06,
+      "text": "Umm. They they keep every single pause.",
+      "no_speech_prob": 0.0,
+      "words": [
+        {
+          "word": " Umm.",
+          "start": 4.16,
+          "end": 4.78,
+          "probability": 0.131
+        },
+        {
+          "word": " They",
+          "start": 5.42,
+          "end": 5.5,
+          "probability": 0.942
+        },
+        {
+          "word": " they",
+          "start": 5.5,
+          "end": 5.66,
+          "probability": 0.62
+        },
+        {
+          "word": " keep",
+          "start": 5.66,
+          "end": 5.94,
+          "probability": 0.996
+        },
+        {
+          "word": " every",
+          "start": 5.94,
+          "end": 6.22,
+          "probability": 0.995
+        },
+        {
+          "word": " single",
+          "start": 6.22,
+          "end": 6.6,
+          "probability": 0.999
+        },
+        {
+          "word": " pause.",
+          "start": 6.6,
+          "end": 7.06,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 8.12,
+      "end": 10.7,
+      "text": "Three seconds of silence kills your retention.",
+      "no_speech_prob": 0.0,
+      "words": [
+        {
+          "word": " Three",
+          "start": 8.12,
+          "end": 8.74,
+          "probability": 0.502
+        },
+        {
+          "word": " seconds",
+          "start": 8.74,
+          "end": 9.14,
+          "probability": 0.989
+        },
+        {
+          "word": " of",
+          "start": 9.14,
+          "end": 9.36,
+          "probability": 0.999
+        },
+        {
+          "word": " silence",
+          "start": 9.36,
+          "end": 9.78,
+          "probability": 0.992
+        },
+        {
+          "word": " kills",
+          "start": 9.78,
+          "end": 10.08,
+          "probability": 0.995
+        },
+        {
+          "word": " your",
+          "start": 10.08,
+          "end": 10.3,
+          "probability": 0.995
+        },
+        {
+          "word": " retention.",
+          "start": 10.3,
+          "end": 10.7,
+          "probability": 0.991
+        }
+      ]
+    }
+  ]
+}

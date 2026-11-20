@@ -1,0 +1,72 @@
+{
+  "$comment": "Active visual design system. Engine reads this at render time (merged with projects/<name>/style.override.json). Tune values here; record the *why* in styles/my-style.md. Baseline = original defaults, NOT yet learned from references.",
+  "name": "baseline-v0",
+  "canvas": { "width": 1080, "height": 1920, "fps": 30 },
+  "safeZone": { "top": 230, "bottom": 440, "left": 70, "right": 170 },
+  "colors": {
+    "text": "#FFFFFF",
+    "accent": "#FFD23F",
+    "accent2": "#4FE3C1",
+    "stroke": "#000000",
+    "shadow": "rgba(0,0,0,0.65)",
+    "panel": "rgba(14,14,16,0.82)",
+    "progress": "#FFD23F"
+  },
+  "typography": {
+    "captionFont": "Montserrat",
+    "captionWeight": "800",
+    "titleFont": "Anton",
+    "titleWeight": "400",
+    "bodyFont": "Inter",
+    "bodyWeight": "600"
+  },
+  "captions": {
+    "enabled": true,
+    "yPercent": 66,
+    "fontSize": 84,
+    "maxWordsPerPage": 3,
+    "pageBreakGapMs": 350,
+    "uppercase": true,
+    "strokeWidth": 12,
+    "activeColor": "accent",
+    "emphasisColor": "accent2",
+    "activeScale": 1.1,
+    "entrance": "pop",
+    "behindSubject": false
+  },
+  "zoom": {
+    "punchInScale": 1.14,
+    "alternatePunchIns": true,
+    "drift": 0.03,
+    "hookScale": 1.08
+  },
+  "pacing": {
+    "maxPauseMs": 220,
+    "padBeforeMs": 70,
+    "padAfterMs": 140,
+    "fillers": ["um", "uh", "erm", "uhm", "ah", "hmm", "mm"],
+    "minSegmentMs": 450,
+    "targetShotSec": 3.5
+  },
+  "transitions": {
+    "default": "cut",
+    "accent": "whip",
+    "accentDurationFrames": 6
+  },
+  "titles": {
+    "hookTitle": true,
+    "hookDurationSec": 2.4,
+    "hookYPercent": 20,
+    "hookFontSize": 118,
+    "keywordFontSize": 150
+  },
+  "progressBar": { "enabled": true, "height": 10 },
+  "audio": {
+    "musicVolume": 0.14,
+    "musicDuckTo": 0.05,
+    "sfxVolume": 0.45,
+    "sfxOnPunchIn": "whoosh",
+    "sfxOnKeyword": "pop",
+    "sfxOnHook": "riser"
+  }
+}
