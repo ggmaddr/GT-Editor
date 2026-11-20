@@ -30,19 +30,25 @@ scripts/            pipeline (Python in .venv, run with .venv/bin/python)
   **yt-dlp** = reference download *only* when the user confirms authorization and the platform permits it.
 
 ## Pipeline
+Steps, in order (prep: CFR 30fps intermediates, dialogue cleanup, face focus; rough_cut → timeline.json +
+edit_report.md; then Claude's creative pass on timeline.json; stills for fast visual checks; full render →
+exports/<p>/<p>-vN.* + QA). Usage examples for humans are in README.md.
+
 ```bash
-scripts/doctor.sh [--fix]                                # toolchain check / install
-.venv/bin/python scripts/prep.py <p> [clips…]             # probe, CFR 30fps intermediates, dialogue cleanup, face focus
-.venv/bin/python scripts/transcribe.py <p> [--model turbo]
-.venv/bin/python scripts/rough_cut.py <p> [--order a,b] [--hook "…"]   # → timeline.json + edit_report.md
-# Claude: creative pass on timeline.json (hook, order, keywords, b-roll, emphasis, transitions)
-.venv/bin/python scripts/render.py <p> --still 0,90       # fast visual checks
-.venv/bin/python scripts/render.py <p>                    # → exports/<p>/<p>-vN.* + QA
+scripts/doctor.sh --fix
+.venv/bin/python scripts/prep.py <p> [clips…]
+.venv/bin/python scripts/transcribe.py <p> --model turbo
+.venv/bin/python scripts/rough_cut.py <p> --order a,b --hook "…"
+.venv/bin/python scripts/render.py <p> --still 0,90
+.venv/bin/python scripts/render.py <p>
 .venv/bin/python scripts/qa.py exports/<p>/<p>-vN.mp4 --project <p>
-.venv/bin/python scripts/analyze_reference.py references/x.mp4 [--threshold 8]
-cd engine && npx remotion studio --public-dir ../projects/<p>/public --props ../projects/<p>/renders/props.json  # live preview
-scripts/selftest.sh                                       # end-to-end check on synthetic footage
+.venv/bin/python scripts/analyze_reference.py references/x.mp4 --threshold 8
+cd engine && npx remotion studio --public-dir ../projects/<p>/public --props ../projects/<p>/renders/props.json
+scripts/selftest.sh
 ```
+
+Docs rule: never put inline `#` comments inside bash code blocks (they break copy-paste); explain in prose
+above the block, and chain setup steps with `&&` into one line where practical.
 
 ## timeline.json essentials (types: engine/src/types.ts)
 - `segments[]` play in order. `srcIn/srcOut` source seconds; `zoom` (1 = cover), `focusX/Y` 0–1 for 9:16
